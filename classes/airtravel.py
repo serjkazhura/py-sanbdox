@@ -3,6 +3,7 @@
 from Flight import Flight
 from Aircraft import AirbusA319
 
+
 def console_card_printer(passenger, seat, flight_num, aircraft):
   output = "| Name: {0}"    \
            " Flight: {1}"   \
@@ -28,6 +29,7 @@ def main():
   f.allocate_seat('1D', 'Richard H')
   f.relocate_passenger('12A', '15D')
   f.make_boarding_cards(console_card_printer)
+
 
 if __name__ == "__main__":
   main()
