@@ -1,0 +1,5 @@
+virtualenv py-sandbox-env
+py-sandbox-env\scripts\activate
+python setup.py install
+python setup.py sdist --format zip
+deactivate
